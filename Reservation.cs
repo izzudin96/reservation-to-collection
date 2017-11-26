@@ -12,6 +12,7 @@ using System.Windows;
 
 namespace BrahimsAirline
 {
+    //Of cousrse, you need to tweaks a little bit.
     class Reservation
     {
         public Flight flight;
