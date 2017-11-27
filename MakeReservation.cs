@@ -14,8 +14,12 @@ namespace BrahimsAirline
         public Reservation makeReservation(Flight flight, Package package)
         {
             Console.WriteLine("\n====== Reservation Details ======\n");
+            
+            //Your input here, including the instantiation of flight and package repo.
 
             Reservation reservation = new Reservation(flight, package);
+            
+            this.addReservationToCollection(reservation);
         }
 
         public void addReservationToCollection(Reservation reservation)
