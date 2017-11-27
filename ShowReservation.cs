@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace BrahimsAirline
 {
-    class Operation
+    class ShowReservation
     {
         string choice;
         int incremental = 0;
